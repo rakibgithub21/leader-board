@@ -1,4 +1,10 @@
+/* font link style  */
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa&family=Poppins:wght@500&display=swap');
 /* header style star  */
+body{
+    font-family: 'Poppins', sans-serif;
+
+}
 nav{
     background: #562EFF;
     display: flex;
@@ -28,10 +34,124 @@ nav{
 .link a{
     text-decoration: none;
     color: white;
-    font-size: 20px;
+    font-size: 17px;
     margin-left: 25px;
 }
 .text h5{
     color: white;
-    font-size: 20px;
+    font-size: 17px;
 }
+
+
+/* main style  */
+/* top courses */
+main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: #F3F1FF;
+}
+.container{
+    width: 870px;
+    border-radius: 5px;
+    background: #FFF;
+    margin-top: 30px;
+    padding: 30px;
+}
+.section-title{
+    color: #562EFF;
+    font-size: 24px;
+    font-weight: 500;
+    margin-top: 0;
+}
+
+.players{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    row-gap: 30px;
+}
+.player img{
+    width: 56px;
+    height: 56px;
+}
+.player{
+    display: flex;
+    align-items: center;
+}
+.player-title{
+    color: #000;
+    font-size: 18px;
+    font-weight: 500;
+    margin-left: 20px;
+}
+hr{
+    border: 1px solid #D1D1D1;
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+
+/* top blogs style  */
+.blogs{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    column-gap: 20px;
+    row-gap: 15px;
+}
+.blog{
+    display: flex;
+}
+.thum img{
+    width: 224px;
+    height: 127px;
+}
+.author{
+    margin-left: 20px;
+    font-size: 12px;
+    font-weight: 400;
+    color: #9F9F9F;
+}
+.author a{
+    text-decoration: none;
+    color: black;
+}
+/* last-section  */
+.courses{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    column-gap: 20px;
+}
+.thumbnail img{
+    width: 266px;
+    height: 141px;
+}
+/* course info */
+.course-info{
+    display: flex;
+    justify-content: space-between;
+}
+.course-title{
+    font-size: 17px;
+}
+.author-title{
+    font-size: 12px;
+}
+.author-title a{
+    text-decoration: none;
+    color: #000;
+}
+.color,.half-color{
+    color: rgb(247, 217, 50);
+    font-size: 13px;
+}
+.span-title{
+    font-size: 13px;
+    margin-left: 10px;
+}
+.course-duration{
+    border-radius: 14.691px;
+    background-color: #FFE4E8;
+    font-size: 12px;
+    padding: 5px 10px;
+    color: #ED6B4F;
+}
+
