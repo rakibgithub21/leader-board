@@ -155,3 +155,57 @@ hr{
     color: #ED6B4F;
 }
 
+
+/* footer style  */
+footer{
+    background: #161616;
+}
+.leader{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 50px;
+}
+.leader-title{
+    color: white;
+  
+    
+}
+.line{
+    border: 1px solid rgba(255, 255, 255, 0.10);
+    width: 1320px;
+    
+    
+}
+.la-link{
+    display: flex;
+    justify-content: center;
+}
+.la-link a{
+    text-decoration: none;
+    color: white;
+    margin-left: 30px;
+    padding-top: 20px;
+}
+.social-link{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 30px;
+    font-size: 50px;
+    color: white;
+    
+}
+.social-link a{
+    margin-left: 30px;
+    font-size: 25px;
+    color: white;
+    padding-bottom: 30px;
+}
+#foot{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: rgb(255, 254, 253);
+    font-size: 15px;
+}
