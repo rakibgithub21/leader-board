@@ -50,12 +50,14 @@ main{
     flex-direction: column;
     align-items: center;
     background: #F3F1FF;
+  
 }
 .container{
     width: 870px;
     border-radius: 5px;
     background: #FFF;
     margin-top: 30px;
+    
     padding: 30px;
 }
 .section-title{
@@ -208,4 +210,39 @@ footer{
     align-items: center;
     color: rgb(255, 254, 253);
     font-size: 15px;
+}
+
+
+/* -----------------------------------------------------------
+-----------------------meadia queery--------------------------
+-------------------------------------------------------------- */
+@media only screen and (max-width: 600px) {
+    .container{
+        width: 100%;
+    }
+    .players,.blogs,.courses{
+        grid-template-columns: repeat(1,1fr);
+    }
+    .player{
+        flex-direction: column;
+    }
+    .course-info{
+       
+        flex-direction: column;
+       
+    }
+    .course-duration{
+        width: 15%;
+        font-size: 10px;
+    }
+    .courses{
+        row-gap: 40px;
+        
+    }
+    .la-link{
+        flex-direction: column;
+        
+    }
+    
+   
 }
