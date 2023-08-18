@@ -1,0 +1,37 @@
+/* header style star  */
+nav{
+    background: #562EFF;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 10px 20px;
+}
+.first{
+    display: flex;
+    align-items: center;
+}
+.second{
+    display: flex;
+    align-items: center;
+}
+.image img{
+    width: 40.424px;
+    height: 51px;
+    margin-right: 25px;
+}
+.pic img{
+    width: 51px;
+    height: 51px;
+    margin-left: 25px;
+   
+}
+.link a{
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    margin-left: 25px;
+}
+.text h5{
+    color: white;
+    font-size: 20px;
+}
